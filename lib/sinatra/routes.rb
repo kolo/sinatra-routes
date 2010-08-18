@@ -8,6 +8,8 @@ module Sinatra
       @@sinatra_app || nil
     end
   end
+  
+  register Routes
 end
 
 def routes(&blk)
